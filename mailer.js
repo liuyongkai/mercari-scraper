@@ -5,8 +5,8 @@ async function sendNotification(to, subject, text) {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: process.env.EMAIL,
-        pass: process.env.PASSWORD,
+        user: songshuang.lyk@gmail.com,
+        pass: lyk4gmail,
       },
     });
 
