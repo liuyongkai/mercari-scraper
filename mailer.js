@@ -5,7 +5,7 @@ async function sendNotification(to, subject, text) {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: songshuang.lyk@gmail.com,
+        user: songshuang.lyk ,
         pass: lyk4gmail,
       },
     });
